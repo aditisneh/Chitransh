@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0);
+}
+
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+
+}
+
+header {
+    background: #dd2476;
+    background: radial-gradient(#ff512f, #800000);
+    --light-gray: rgba(255, 255, 255, 0);
+}
+
+.nav-item {
+    color: white;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .navbar-brand {
+    padding-left: 5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header.nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+
+}
+
+
+
+header .container .col-md-7 h4 {
+    padding: 1vmin;
+
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+main {
+    background: whitesmoke;
+}
+
+/*footer*/
+#footer {
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+
+#footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#footer ul a {
+    color: #999999;
+    padding: 20px 0;
+}
+
+#footer .social a {
+    margin: 0 10px 0 0;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    transform: all 0.2s ease-out;
+    vertical-align: bottom;
+    background-color: #555555;
+}
+
+/*Copyright*/
+#copyright {
+    background: #333;
+    color: #ccc;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#copyright p {
+    margin: 0;
+}
+
+button {
+    color: grey;
+}

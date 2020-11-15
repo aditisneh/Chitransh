@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel='stylesheet' type='text/css' href='../css/mobile-style.css'>
+<style>
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+h3{
+  padding-left: 15px;
+}
+nav a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 0.9em;
+}
+
+</style>
+</head>
+<body>
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            कायस्थ &nbsp;&nbsp;-&nbsp;&nbsp; ज्ञान &nbsp;&nbsp;विवेक &nbsp;&nbsp;शौर्य।</a></nav></div>
+  
+  <h3>World Population :&nbsp;	9,637,000</h3>
+  <h3>Largest Religion :&nbsp; Hinduism (99.94%)</h3>
+  <h3>Progress of the Gospel: &nbsp; Engaged yet Unreached</h3>
+  <h3>Frontier People Group	: &nbsp; Yes</h3>
+<br>
+<br>
+<div class="table-responsive">
+  <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>Population</th>
+          <th>State</th>
+          <th>Population</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>West Bengal</td>
+          <td>2,502,000</td>
+          <td>Uttar Pradesh</td>
+          <td>1,932,000</td>
+          
+        </tr>
+        <tr>
+          <td>Bihar</td>
+          <td>1,330,000</td>
+          <td>Madhya Pradesh</td>
+          <td> 405,000</td>
+        </tr>
+        <tr>
+          <td>Assam</td>
+          <td>683,000</td>
+          <td>Tripura</td>
+          <td>247,000</td>
+        </tr>
+        <tr>
+          <td>Jharkhand</td>
+          <td>232,000</td>
+          <td>Odhisha</td>
+          <td>124,000</td>
+        </tr>
+        <tr>
+          <td>Uttarakhand</td>
+          <td>91,000</td>
+          <td>Chhattisgarh</td>
+          <td>44,000</td>
+        </tr>
+        <tr>
+          <td>Maharashtra</td>
+          <td>40,000</td>
+          <td>Rajasthan</td>
+          <td>33,000</td>
+        </tr>
+        <tr>
+          <td>Delhi</td>
+          <td>30,000</td>
+          <td>Haryana</td>
+          <td>15,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+  <main>
+    <div class="col-md-6">
+    <img src="../assets/branch.jpeg" width="600px" height="500px">
+  </div>
+  <div class="col-md-6">
+    <img src="../assets/branch.png" width="600px" height="500px">
+  </div>
+  </main>
+  
+
+ 
+</div>
+</body>
+</html>
