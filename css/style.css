@@ -219,12 +219,31 @@ header {
     color: white;
 }
 
+.icon-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: black;
+}
+
 header .nav-item:last-child {
     padding-right: 10.5em;
 }
 
+.navbar {
+    background: white;
+}
+
 header .navbar-brand {
-    padding-left: 5em;
+    color: black;
 }
 
 header .nav-item {

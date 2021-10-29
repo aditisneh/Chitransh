@@ -39,9 +39,7 @@ header .nav-item:last-child {
     padding-right: 10.5em;
 }
 
-header .navbar-brand {
-    padding-left: 5em;
-}
+header .navbar-brand {}
 
 header .nav-item {
     padding: 0.9em;
