@@ -58,7 +58,7 @@ p {
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../assets/abhaysir.jpeg');
+    background-image: url('../assets/no.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -86,7 +86,7 @@ p {
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../assets/vlsirvastav.jpeg');
+    background-image: url('../assets/apmehta.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -100,7 +100,7 @@ p {
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../assets/sunil.jpeg');
+    background-image: url('../assets/rajivsinha.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,7 +114,46 @@ p {
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../assets/dkumar.jpeg');
+    background-image: url('../assets/sunil.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image6 {
+    height: 16em;
+    width: 20em;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/dnkarn.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image7 {
+    height: 16em;
+    width: 20em;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/mukul.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image8 {
+    height: 16em;
+    width: 20em;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/prabhat.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
