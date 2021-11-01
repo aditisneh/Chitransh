@@ -336,7 +336,7 @@ let members =  [
     },
     {
       "uid": 68,
-      "name": "Vinod Kumar Srivastava",
+      "name": "Vinod Lal Srivastava",
       "mob": "7295913661"
     }
   ]
