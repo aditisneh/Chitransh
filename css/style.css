@@ -705,3 +705,8 @@ header .container .col-md-7 h1 {
 #copyright p {
     margin: 0;
 }
+
+@media (min-width: 1200px) {
+    .container{
+    max-width: none !important
+    }}
