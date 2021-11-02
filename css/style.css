@@ -16,7 +16,7 @@ p {
 }
 
 .center {
-    height: 100vh;
+    height: 88vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,8 +26,10 @@ p {
 /* End Non-Essential  */
 
 .property-card {
+    position: relative !important;
+    top: -50px;
     height: 28em;
-    width: 15em;
+    width: 25em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50,22 +52,24 @@ p {
 /* Top Half of card, image. */
 
 .property-image1 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../assets/no.jpeg');
+    background-image: url('../assets/rksinha.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .property-image2 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -78,8 +82,9 @@ p {
 }
 
 .property-image3 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -92,8 +97,9 @@ p {
 }
 
 .property-image4 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -106,8 +112,9 @@ p {
 }
 
 .property-image5 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -119,8 +126,9 @@ p {
     background-repeat: no-repeat;
 }
 .property-image6 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -132,8 +140,9 @@ p {
     background-repeat: no-repeat;
 }
 .property-image7 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -145,8 +154,9 @@ p {
     background-repeat: no-repeat;
 }
 .property-image8 {
-    height: 16em;
+    height: 23em;
     width: 20em;
+    margin-left: 10%;
     padding: 1em 2em;
     position: Absolute;
     top: 0px;
@@ -158,12 +168,154 @@ p {
     background-repeat: no-repeat;
 }
 
+.property-image9 {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/satyajit.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.property-image-rrsinha {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/rrSinha.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-abhaysinha {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/abhaysinha.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-ankit {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/ankit.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-rajat {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/rajat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-sunilkaran {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/sunilkaran.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-vibhuti {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/vibhuti.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-anil {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/anil.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-ppsir {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/ppsir.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.property-image-rupesh {
+    height: 23em;
+    width: 20em;
+    margin-left: 10%;
+    padding: 1em 2em;
+    position: Absolute;
+    top: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image: url('../assets/rupesh.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Bottom Card Section */
 
 .property-description {
     background-color: #FAFAFC;
-    height: 12em;
-    width: 14em;
+    height: 4em;
+    width: 25em;
     position: absolute;
     bottom: 0em;
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -192,10 +344,13 @@ p {
 .property-card:hover .property-description {
     height: 0em;
     padding: 0px 1em;
+ 
 }
 
 .property-card:hover .property-image {
     height: 30em;
+    width: 25em;
+    margin-left: 0 !important;
 }
 
 .property-card:hover .property-social-icons {
@@ -479,7 +634,7 @@ header .container .col-md-7 h1 {
 }
 
 .section-4 .team {
-    padding: 10vmin 4vmin;
+   overflow: hidden;
 }
 
 .section-4 .card {
@@ -497,6 +652,10 @@ header .container .col-md-7 h1 {
 
 .section-4 .carousel-item {
     padding-left: 3rem;
+}
+
+.section-4 .col-md-4 {
+   height: 495px;
 }
 
 .border-radius {
