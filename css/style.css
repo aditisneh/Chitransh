@@ -456,6 +456,7 @@ header .row .col-md-7 {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
     font-family: var(--Rubik);
+    padding-left: 20em;
 
 }
 
@@ -655,7 +656,7 @@ header .container .col-md-7 h1 {
 }
 
 .section-4 .col-md-4 {
-   height: 495px;
+   height: 530px;
 }
 
 .border-radius {
@@ -705,3 +706,14 @@ header .container .col-md-7 h1 {
 #copyright p {
     margin: 0;
 }
+
+@media (min-width: 1200px) {
+    .container{
+    max-width: none !important
+    }}
+
+    @media (max-width: 450px) {
+        .container .row div {
+            padding-left: 5% !important;
+        }
+    }
